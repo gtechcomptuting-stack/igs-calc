@@ -1,0 +1,1 @@
+igs-header-backup.png = cabeçalho visual baseado no backup/screenshot fornecido pelo usuário.

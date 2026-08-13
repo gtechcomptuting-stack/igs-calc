@@ -1,0 +1,37 @@
+.app-header {
+  display: flex;
+  flex-direction: column; /* no celular fica empilhado */
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #2c2c54; /* cor opcional */
+}
+
+.logo {
+  max-width: 150px; /* controla tamanho da logo */
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.titulo {
+  font-size: 1.2rem;
+  color: #fff;
+  text-align: center;
+}
+
+/* Ajuste automático para telas maiores */
+@media (min-width: 768px) {
+  .app-header {
+    flex-direction: row; /* logo e título lado a lado */
+  }
+
+  .logo {
+    margin-right: 15px;
+    max-width: 200px;
+  }
+
+  .titulo {
+    font-size: 1.5rem;
+  }
+}

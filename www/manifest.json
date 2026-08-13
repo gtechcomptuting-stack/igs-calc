@@ -1,0 +1,21 @@
+{
+  "short_name": "Canteiro",
+  "name": "Calculadora do Canteiro",
+  "icons": [
+    {
+      "src": "img/icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "img/icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "index.html",
+  "background_color": "#15131F",
+  "theme_color": "#15131F",
+  "display": "standalone",
+  "orientation": "portrait"
+}
